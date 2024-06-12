@@ -1,0 +1,2 @@
+('C:\\Users\\kanan\\OneDrive\\Desktop\\Work\\Pyy\\test\\build\\project\\PYZ-00.pyz',
+ [])

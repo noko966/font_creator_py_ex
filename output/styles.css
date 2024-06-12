@@ -1,0 +1,1478 @@
+
+@font-face {
+  font-family: "dg_icons";
+  src: url("dg_icons.eot");
+  src: url("dg_icons.eot?#iefix") format("embedded-opentype"),
+    url("dg_icons.woff2") format("woff2"),
+    url("dg_icons.woff") format("woff"),
+    url("dg_icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+:root{
+  --bodyBg: #e8e8e8;
+  --bodyBg2: #141f27;
+  --bodyBg3: #445c6f;
+  --bodyTxt: rgba(255,255,255,0.9);
+  --bodyTxt2: rgba(255,255,255,0.6);
+  --dominantBg: #0b293d;
+  --dominantBg2: #14496d;
+  --dominantBg3: #286a96;
+  --dominantTxt: rgba(255,255,255,0.9);
+  --dominantTxt2: rgba(255,255,255,0.6);
+  --accentBg: #00b6ff;
+  --accentBg2: #33454d;
+  --accentTxt: rgba(255,255,255,0.9);
+  --icoSize: 24px;
+}
+
+.dynamic_icon {
+  font-family: "iconsDinamicMenu";
+  font-size: 46px;
+  line-height: 0.8;
+}
+
+.icon_demo:hover {
+}
+
+.icon_demo > strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.icon_demo_e {
+    background: var(--dominantBg2);
+    border: 1px solid var(--dominantBg3);
+    row-gap: 12px;
+    border-radius: 12px; 
+}
+
+[class^="dg_icon"],
+[class*=" dg_icon"],
+.dg_icon {
+  font-family: "dg_icons";
+  display: inline-block;
+  flex-shrink: 0;
+  width: var(--icoSize);
+  height: var(--icoSize);
+    font-size: calc(var(--icoSize) * 2);
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: ltr !important;
+  content: "\E0000";
+}
+
+.ico_size-xs{
+    --icoSize: 16px;
+}
+.ico_size-sm{
+    --icoSize: 20px;
+}
+.ico_size-md{
+    --icoSize: 24px;
+}
+.ico_size-lg{
+    --icoSize: 28px;
+}
+.ico_size-xl{
+    --icoSize: 32px;
+}
+
+                    .dg_icon_2::before {
+                        content: "\E001";
+                    }
+                    
+                    .dg_icon_3::before {
+                        content: "\E002";
+                    }
+                    
+                    .dg_icon_4::before {
+                        content: "\E003";
+                    }
+                    
+                    .dg_icon_5::before {
+                        content: "\E004";
+                    }
+                    
+                    .dg_icon_6::before {
+                        content: "\E005";
+                    }
+                    
+                    .dg_icon_7::before {
+                        content: "\E006";
+                    }
+                    
+                    .dg_icon_8::before {
+                        content: "\E007";
+                    }
+                    
+                    .dg_icon_9::before {
+                        content: "\E008";
+                    }
+                    
+                    .dg_icon_10::before {
+                        content: "\E009";
+                    }
+                    
+                    .dg_icon_11::before {
+                        content: "\E00A";
+                    }
+                    
+                    .dg_icon_12::before {
+                        content: "\E00B";
+                    }
+                    
+                    .dg_icon_13::before {
+                        content: "\E00C";
+                    }
+                    
+                    .dg_icon_14::before {
+                        content: "\E00D";
+                    }
+                    
+                    .dg_icon_15::before {
+                        content: "\E00E";
+                    }
+                    
+                    .dg_icon_16::before {
+                        content: "\E00F";
+                    }
+                    
+                    .dg_icon_17::before {
+                        content: "\E010";
+                    }
+                    
+                    .dg_icon_18::before {
+                        content: "\E011";
+                    }
+                    
+                    .dg_icon_19::before {
+                        content: "\E012";
+                    }
+                    
+                    .dg_icon_20::before {
+                        content: "\E013";
+                    }
+                    
+                    .dg_icon_21::before {
+                        content: "\E014";
+                    }
+                    
+                    .dg_icon_22::before {
+                        content: "\E015";
+                    }
+                    
+                    .dg_icon_23::before {
+                        content: "\E016";
+                    }
+                    
+                    .dg_icon_24::before {
+                        content: "\E017";
+                    }
+                    
+                    .dg_icon_25::before {
+                        content: "\E018";
+                    }
+                    
+                    .dg_icon_26::before {
+                        content: "\E019";
+                    }
+                    
+                    .dg_icon_27::before {
+                        content: "\E01A";
+                    }
+                    
+                    .dg_icon_28::before {
+                        content: "\E01B";
+                    }
+                    
+                    .dg_icon_29::before {
+                        content: "\E01C";
+                    }
+                    
+                    .dg_icon_30::before {
+                        content: "\E01D";
+                    }
+                    
+                    .dg_icon_31::before {
+                        content: "\E01E";
+                    }
+                    
+                    .dg_icon_32::before {
+                        content: "\E01F";
+                    }
+                    
+                    .dg_icon_33::before {
+                        content: "\E020";
+                    }
+                    
+                    .dg_icon_34::before {
+                        content: "\E021";
+                    }
+                    
+                    .dg_icon_35::before {
+                        content: "\E022";
+                    }
+                    
+                    .dg_icon_36::before {
+                        content: "\E023";
+                    }
+                    
+                    .dg_icon_37::before {
+                        content: "\E024";
+                    }
+                    
+                    .dg_icon_38::before {
+                        content: "\E025";
+                    }
+                    
+                    .dg_icon_39::before {
+                        content: "\E026";
+                    }
+                    
+                    .dg_icon_40::before {
+                        content: "\E027";
+                    }
+                    
+                    .dg_icon_41::before {
+                        content: "\E028";
+                    }
+                    
+                    .dg_icon_42::before {
+                        content: "\E029";
+                    }
+                    
+                    .dg_icon_43::before {
+                        content: "\E02A";
+                    }
+                    
+                    .dg_icon_44::before {
+                        content: "\E02B";
+                    }
+                    
+                    .dg_icon_45::before {
+                        content: "\E02C";
+                    }
+                    
+                    .dg_icon_46::before {
+                        content: "\E02D";
+                    }
+                    
+                    .dg_icon_47::before {
+                        content: "\E02E";
+                    }
+                    
+                    .dg_icon_48::before {
+                        content: "\E02F";
+                    }
+                    
+                    .dg_icon_49::before {
+                        content: "\E030";
+                    }
+                    
+                    .dg_icon_50::before {
+                        content: "\E031";
+                    }
+                    
+                    .dg_icon_51::before {
+                        content: "\E032";
+                    }
+                    
+                    .dg_icon_52::before {
+                        content: "\E033";
+                    }
+                    
+                    .dg_icon_53::before {
+                        content: "\E034";
+                    }
+                    
+                    .dg_icon_54::before {
+                        content: "\E035";
+                    }
+                    
+                    .dg_icon_55::before {
+                        content: "\E036";
+                    }
+                    
+                    .dg_icon_56::before {
+                        content: "\E037";
+                    }
+                    
+                    .dg_icon_57::before {
+                        content: "\E038";
+                    }
+                    
+                    .dg_icon_58::before {
+                        content: "\E039";
+                    }
+                    
+                    .dg_icon_59::before {
+                        content: "\E03A";
+                    }
+                    
+                    .dg_icon_60::before {
+                        content: "\E03B";
+                    }
+                    
+                    .dg_icon_61::before {
+                        content: "\E03C";
+                    }
+                    
+                    .dg_icon_62::before {
+                        content: "\E03D";
+                    }
+                    
+                    .dg_icon_63::before {
+                        content: "\E03E";
+                    }
+                    
+                    .dg_icon_64::before {
+                        content: "\E03F";
+                    }
+                    
+                    .dg_icon_65::before {
+                        content: "\E040";
+                    }
+                    
+                    .dg_icon_66::before {
+                        content: "\E041";
+                    }
+                    
+                    .dg_icon_67::before {
+                        content: "\E042";
+                    }
+                    
+                    .dg_icon_68::before {
+                        content: "\E043";
+                    }
+                    
+                    .dg_icon_69::before {
+                        content: "\E044";
+                    }
+                    
+                    .dg_icon_70::before {
+                        content: "\E045";
+                    }
+                    
+                    .dg_icon_71::before {
+                        content: "\E046";
+                    }
+                    
+                    .dg_icon_72::before {
+                        content: "\E047";
+                    }
+                    
+                    .dg_icon_73::before {
+                        content: "\E048";
+                    }
+                    
+                    .dg_icon_74::before {
+                        content: "\E049";
+                    }
+                    
+                    .dg_icon_75::before {
+                        content: "\E04A";
+                    }
+                    
+                    .dg_icon_76::before {
+                        content: "\E04B";
+                    }
+                    
+                    .dg_icon_77::before {
+                        content: "\E04C";
+                    }
+                    
+                    .dg_icon_78::before {
+                        content: "\E04D";
+                    }
+                    
+                    .dg_icon_79::before {
+                        content: "\E04E";
+                    }
+                    
+                    .dg_icon_80::before {
+                        content: "\E04F";
+                    }
+                    
+                    .dg_icon_81::before {
+                        content: "\E050";
+                    }
+                    
+                    .dg_icon_82::before {
+                        content: "\E051";
+                    }
+                    
+                    .dg_icon_83::before {
+                        content: "\E052";
+                    }
+                    
+                    .dg_icon_84::before {
+                        content: "\E053";
+                    }
+                    
+                    .dg_icon_85::before {
+                        content: "\E054";
+                    }
+                    
+                    .dg_icon_86::before {
+                        content: "\E055";
+                    }
+                    
+                    .dg_icon_87::before {
+                        content: "\E056";
+                    }
+                    
+                    .dg_icon_88::before {
+                        content: "\E057";
+                    }
+                    
+                    .dg_icon_89::before {
+                        content: "\E058";
+                    }
+                    
+                    .dg_icon_90::before {
+                        content: "\E059";
+                    }
+                    
+                    .dg_icon_91::before {
+                        content: "\E05A";
+                    }
+                    
+                    .dg_icon_92::before {
+                        content: "\E05B";
+                    }
+                    
+                    .dg_icon_93::before {
+                        content: "\E05C";
+                    }
+                    
+                    .dg_icon_94::before {
+                        content: "\E05D";
+                    }
+                    
+                    .dg_icon_95::before {
+                        content: "\E05E";
+                    }
+                    
+                    .dg_icon_96::before {
+                        content: "\E05F";
+                    }
+                    
+                    .dg_icon_97::before {
+                        content: "\E060";
+                    }
+                    
+                    .dg_icon_98::before {
+                        content: "\E061";
+                    }
+                    
+                    .dg_icon_99::before {
+                        content: "\E062";
+                    }
+                    
+                    .dg_icon_100::before {
+                        content: "\E063";
+                    }
+                    
+                    .dg_icon_101::before {
+                        content: "\E064";
+                    }
+                    
+                    .dg_icon_102::before {
+                        content: "\E065";
+                    }
+                    
+                    .dg_icon_103::before {
+                        content: "\E066";
+                    }
+                    
+                    .dg_icon_104::before {
+                        content: "\E067";
+                    }
+                    
+                    .dg_icon_105::before {
+                        content: "\E068";
+                    }
+                    
+                    .dg_icon_106::before {
+                        content: "\E069";
+                    }
+                    
+                    .dg_icon_107::before {
+                        content: "\E06A";
+                    }
+                    
+                    .dg_icon_108::before {
+                        content: "\E06B";
+                    }
+                    
+                    .dg_icon_109::before {
+                        content: "\E06C";
+                    }
+                    
+                    .dg_icon_110::before {
+                        content: "\E06D";
+                    }
+                    
+                    .dg_icon_111::before {
+                        content: "\E06E";
+                    }
+                    
+                    .dg_icon_112::before {
+                        content: "\E06F";
+                    }
+                    
+                    .dg_icon_113::before {
+                        content: "\E070";
+                    }
+                    
+                    .dg_icon_114::before {
+                        content: "\E071";
+                    }
+                    
+                    .dg_icon_115::before {
+                        content: "\E072";
+                    }
+                    
+                    .dg_icon_116::before {
+                        content: "\E073";
+                    }
+                    
+                    .dg_icon_116::before {
+                        content: "\E074";
+                    }
+                    
+                    .dg_icon_117::before {
+                        content: "\E075";
+                    }
+                    
+                    .dg_icon_1::before {
+                        content: "\E0B7";
+                    }
+                    
+                    .dg_icon_57528::before {
+                        content: "\E0B8";
+                    }
+                    
+                    .dg_icon_57529::before {
+                        content: "\E0B9";
+                    }
+                    
+                    .dg_icon_57530::before {
+                        content: "\E0BA";
+                    }
+                    
+                    .dg_icon_57531::before {
+                        content: "\E0BB";
+                    }
+                    
+                    .dg_icon_57532::before {
+                        content: "\E0BC";
+                    }
+                    
+                    .dg_icon_57533::before {
+                        content: "\E0BD";
+                    }
+                    
+                    .dg_icon_57534::before {
+                        content: "\E0BE";
+                    }
+                    
+                    .dg_icon_57535::before {
+                        content: "\E0BF";
+                    }
+                    
+                    .dg_icon_57536::before {
+                        content: "\E0C0";
+                    }
+                    
+                    .dg_icon_57537::before {
+                        content: "\E0C1";
+                    }
+                    
+                    .dg_icon_57538::before {
+                        content: "\E0C2";
+                    }
+                    
+                    .dg_icon_57539::before {
+                        content: "\E0C3";
+                    }
+                    
+                    .dg_icon_57540::before {
+                        content: "\E0C4";
+                    }
+                    
+                    .dg_icon_57541::before {
+                        content: "\E0C5";
+                    }
+                    
+                    .dg_icon_57542::before {
+                        content: "\E0C6";
+                    }
+                    
+                    .dg_icon_57543::before {
+                        content: "\E0C7";
+                    }
+                    
+                    .dg_icon_57544::before {
+                        content: "\E0C8";
+                    }
+                    
+                    .dg_icon_57545::before {
+                        content: "\E0C9";
+                    }
+                    
+                    .dg_icon_57546::before {
+                        content: "\E0CA";
+                    }
+                    
+                    .dg_icon_57547::before {
+                        content: "\E0CB";
+                    }
+                    
+                    .dg_icon_57548::before {
+                        content: "\E0CC";
+                    }
+                    
+                    .dg_icon_57549::before {
+                        content: "\E0CD";
+                    }
+                    
+                    .dg_icon_57550::before {
+                        content: "\E0CE";
+                    }
+                    
+                    .dg_icon_57551::before {
+                        content: "\E0CF";
+                    }
+                    
+                    .dg_icon_57552::before {
+                        content: "\E0D0";
+                    }
+                    
+                    .dg_icon_57553::before {
+                        content: "\E0D1";
+                    }
+                    
+                    .dg_icon_57554::before {
+                        content: "\E0D2";
+                    }
+                    
+                    .dg_icon_57555::before {
+                        content: "\E0D3";
+                    }
+                    
+                    .dg_icon_57556::before {
+                        content: "\E0D4";
+                    }
+                    
+                    .dg_icon_57557::before {
+                        content: "\E0D5";
+                    }
+                    
+                    .dg_icon_57558::before {
+                        content: "\E0D6";
+                    }
+                    
+                    .dg_icon_57559::before {
+                        content: "\E0D7";
+                    }
+                    
+                    .dg_icon_57560::before {
+                        content: "\E0D8";
+                    }
+                    
+                    .dg_icon_57561::before {
+                        content: "\E0D9";
+                    }
+                    
+                    .dg_icon_57562::before {
+                        content: "\E0DA";
+                    }
+                    
+                    .dg_icon_57563::before {
+                        content: "\E0DB";
+                    }
+                    
+                    .dg_icon_57564::before {
+                        content: "\E0DC";
+                    }
+                    
+                    .dg_icon_57565::before {
+                        content: "\E0DD";
+                    }
+                    
+                    .dg_icon_57566::before {
+                        content: "\E0DE";
+                    }
+                    
+                    .dg_icon_57567::before {
+                        content: "\E0DF";
+                    }
+                    
+                    .dg_icon_57568::before {
+                        content: "\E0E0";
+                    }
+                    
+                    .dg_icon_57569::before {
+                        content: "\E0E1";
+                    }
+                    
+                    .dg_icon_57570::before {
+                        content: "\E0E2";
+                    }
+                    
+                    .dg_icon_57571::before {
+                        content: "\E0E3";
+                    }
+                    
+                    .dg_icon_57572::before {
+                        content: "\E0E4";
+                    }
+                    
+                    .dg_icon_57573::before {
+                        content: "\E0E5";
+                    }
+                    
+                    .dg_icon_57574::before {
+                        content: "\E0E6";
+                    }
+                    
+                    .dg_icon_57575::before {
+                        content: "\E0E7";
+                    }
+                    
+                    .dg_icon_57576::before {
+                        content: "\E0E8";
+                    }
+                    
+                    .dg_icon_57577::before {
+                        content: "\E0E9";
+                    }
+                    
+                    .dg_icon_57578::before {
+                        content: "\E0EA";
+                    }
+                    
+                    .dg_icon_57579::before {
+                        content: "\E0EB";
+                    }
+                    
+                    .dg_icon_57580::before {
+                        content: "\E0EC";
+                    }
+                    
+                    .dg_icon_57581::before {
+                        content: "\E0ED";
+                    }
+                    
+                    .dg_icon_57582::before {
+                        content: "\E0EE";
+                    }
+                    
+                    .dg_icon_57583::before {
+                        content: "\E0EF";
+                    }
+                    
+                    .dg_icon_57584::before {
+                        content: "\E0F0";
+                    }
+                    
+                    .dg_icon_57585::before {
+                        content: "\E0F1";
+                    }
+                    
+                    .dg_icon_57586::before {
+                        content: "\E0F2";
+                    }
+                    
+                    .dg_icon_57587::before {
+                        content: "\E0F3";
+                    }
+                    
+                    .dg_icon_57588::before {
+                        content: "\E0F4";
+                    }
+                    
+                    .dg_icon_57589::before {
+                        content: "\E0F5";
+                    }
+                    
+                    .dg_icon_57590::before {
+                        content: "\E0F6";
+                    }
+                    
+                    .dg_icon_57591::before {
+                        content: "\E0F7";
+                    }
+                    
+                    .dg_icon_57592::before {
+                        content: "\E0F8";
+                    }
+                    
+                    .dg_icon_57593::before {
+                        content: "\E0F9";
+                    }
+                    
+                    .dg_icon_57594::before {
+                        content: "\E0FA";
+                    }
+                    
+                    .dg_icon_57595::before {
+                        content: "\E0FB";
+                    }
+                    
+                    .dg_icon_57596::before {
+                        content: "\E0FC";
+                    }
+                    
+                    .dg_icon_57597::before {
+                        content: "\E0FD";
+                    }
+                    
+                    .dg_icon_57598::before {
+                        content: "\E0FE";
+                    }
+                    
+                    .dg_icon_57599::before {
+                        content: "\E0FF";
+                    }
+                    
+                    .dg_icon_57600::before {
+                        content: "\E100";
+                    }
+                    
+                    .dg_icon_57601::before {
+                        content: "\E101";
+                    }
+                    
+                    .dg_icon_57602::before {
+                        content: "\E102";
+                    }
+                    
+                    .dg_icon_57603::before {
+                        content: "\E103";
+                    }
+                    
+                    .dg_icon_57604::before {
+                        content: "\E104";
+                    }
+                    
+                    .dg_icon_57605::before {
+                        content: "\E105";
+                    }
+                    
+                    .dg_icon_57606::before {
+                        content: "\E106";
+                    }
+                    
+                    .dg_icon_57607::before {
+                        content: "\E107";
+                    }
+                    
+                    .dg_icon_57608::before {
+                        content: "\E108";
+                    }
+                    
+                    .dg_icon_57609::before {
+                        content: "\E109";
+                    }
+                    
+                    .dg_icon_57610::before {
+                        content: "\E10A";
+                    }
+                    
+                    .dg_icon_57611::before {
+                        content: "\E10B";
+                    }
+                    
+                    .dg_icon_57612::before {
+                        content: "\E10C";
+                    }
+                    
+                    .dg_icon_57613::before {
+                        content: "\E10D";
+                    }
+                    
+                    .dg_icon_57614::before {
+                        content: "\E10E";
+                    }
+                    
+                    .dg_icon_57615::before {
+                        content: "\E10F";
+                    }
+                    
+                    .dg_icon_57616::before {
+                        content: "\E110";
+                    }
+                    
+                    .dg_icon_57617::before {
+                        content: "\E111";
+                    }
+                    
+                    .dg_icon_57618::before {
+                        content: "\E112";
+                    }
+                    
+                    .dg_icon_57619::before {
+                        content: "\E113";
+                    }
+                    
+                    .dg_icon_57620::before {
+                        content: "\E114";
+                    }
+                    
+                    .dg_icon_57621::before {
+                        content: "\E115";
+                    }
+                    
+                    .dg_icon_57622::before {
+                        content: "\E116";
+                    }
+                    
+                    .dg_icon_57623::before {
+                        content: "\E117";
+                    }
+                    
+                    .dg_icon_57624::before {
+                        content: "\E118";
+                    }
+                    
+                    .dg_icon_57625::before {
+                        content: "\E119";
+                    }
+                    
+                    .dg_icon_57626::before {
+                        content: "\E11A";
+                    }
+                    
+                    .dg_icon_57627::before {
+                        content: "\E11B";
+                    }
+                    
+                    .dg_icon_57628::before {
+                        content: "\E11C";
+                    }
+                    
+                    .dg_icon_57629::before {
+                        content: "\E11D";
+                    }
+                    
+                    .dg_icon_57630::before {
+                        content: "\E11E";
+                    }
+                    
+                    .dg_icon_57631::before {
+                        content: "\E11F";
+                    }
+                    
+                    .dg_icon_57632::before {
+                        content: "\E120";
+                    }
+                    
+                    .dg_icon_57633::before {
+                        content: "\E121";
+                    }
+                    
+                    .dg_icon_57634::before {
+                        content: "\E122";
+                    }
+                    
+                    .dg_icon_57635::before {
+                        content: "\E123";
+                    }
+                    
+                    .dg_icon_57636::before {
+                        content: "\E124";
+                    }
+                    
+                    .dg_icon_57637::before {
+                        content: "\E125";
+                    }
+                    
+                    .dg_icon_57638::before {
+                        content: "\E126";
+                    }
+                    
+                    .dg_icon_57639::before {
+                        content: "\E127";
+                    }
+                    
+                    .dg_icon_57640::before {
+                        content: "\E128";
+                    }
+                    
+                    .dg_icon_57641::before {
+                        content: "\E129";
+                    }
+                    
+                    .dg_icon_57642::before {
+                        content: "\E12A";
+                    }
+                    
+                    .dg_icon_57643::before {
+                        content: "\E12B";
+                    }
+                    
+                    .dg_icon_57644::before {
+                        content: "\E12C";
+                    }
+                    
+                    .dg_icon_57645::before {
+                        content: "\E12D";
+                    }
+                    
+                    .dg_icon_57646::before {
+                        content: "\E12E";
+                    }
+                    
+                    .dg_icon_57647::before {
+                        content: "\E12F";
+                    }
+                    
+                    .dg_icon_57648::before {
+                        content: "\E130";
+                    }
+                    
+                    .dg_icon_57650::before {
+                        content: "\E132";
+                    }
+                    
+                    .dg_icon_57651::before {
+                        content: "\E133";
+                    }
+                    
+                    .dg_icon_57652::before {
+                        content: "\E134";
+                    }
+                    
+                    .dg_icon_57656::before {
+                        content: "\E138";
+                    }
+                    
+                    .dg_icon_57657::before {
+                        content: "\E139";
+                    }
+                    
+                    .dg_icon_57658::before {
+                        content: "\E13A";
+                    }
+                    
+                    .dg_icon_57659::before {
+                        content: "\E13B";
+                    }
+                    
+                    .dg_icon_57660::before {
+                        content: "\E13C";
+                    }
+                    
+                    .dg_icon_57661::before {
+                        content: "\E13D";
+                    }
+                    
+                    .dg_icon_57662::before {
+                        content: "\E13E";
+                    }
+                    
+                    .dg_icon_57663::before {
+                        content: "\E13F";
+                    }
+                    
+                    .dg_icon_57664::before {
+                        content: "\E140";
+                    }
+                    
+                    .dg_icon_57665::before {
+                        content: "\E141";
+                    }
+                    
+                    .dg_icon_57666::before {
+                        content: "\E142";
+                    }
+                    
+                    .dg_icon_57667::before {
+                        content: "\E143";
+                    }
+                    
+                    .dg_icon_57668::before {
+                        content: "\E144";
+                    }
+                    
+                    .dg_icon_57669::before {
+                        content: "\E145";
+                    }
+                    
+                    .dg_icon_57670::before {
+                        content: "\E146";
+                    }
+                    
+                    .dg_icon_57671::before {
+                        content: "\E147";
+                    }
+                    
+                    .dg_icon_57672::before {
+                        content: "\E148";
+                    }
+                    
+                    .dg_icon_57673::before {
+                        content: "\E149";
+                    }
+                    
+                    .dg_icon_57674::before {
+                        content: "\E14A";
+                    }
+                    
+                    .dg_icon_57675::before {
+                        content: "\E14B";
+                    }
+                    
+                    .dg_icon_57676::before {
+                        content: "\E14C";
+                    }
+                    
+                    .dg_icon_57677::before {
+                        content: "\E14D";
+                    }
+                    
+                    .dg_icon_57678::before {
+                        content: "\E14E";
+                    }
+                    
+                    .dg_icon_57679::before {
+                        content: "\E14F";
+                    }
+                    
+                    .dg_icon_57680::before {
+                        content: "\E150";
+                    }
+                    
+                    .dg_icon_57681::before {
+                        content: "\E151";
+                    }
+                    
+                    .dg_icon_57682::before {
+                        content: "\E152";
+                    }
+                    
+                    .dg_icon_57683::before {
+                        content: "\E153";
+                    }
+                    
+                    .dg_icon_57684::before {
+                        content: "\E154";
+                    }
+                    
+                    .dg_icon_57685::before {
+                        content: "\E155";
+                    }
+                    
+                    .dg_icon_57686::before {
+                        content: "\E156";
+                    }
+                    
+                    .dg_icon_57687::before {
+                        content: "\E157";
+                    }
+                    
+                    .dg_icon_57688::before {
+                        content: "\E158";
+                    }
+                    
+                    .dg_icon_57689::before {
+                        content: "\E159";
+                    }
+                    
+                    .dg_icon_57690::before {
+                        content: "\E15A";
+                    }
+                    
+                    .dg_icon_57691::before {
+                        content: "\E15B";
+                    }
+                    
+                    .dg_icon_57692::before {
+                        content: "\E15C";
+                    }
+                    
+                    .dg_icon_57693::before {
+                        content: "\E15D";
+                    }
+                    
+                    .dg_icon_57694::before {
+                        content: "\E15E";
+                    }
+                    
+                    .dg_icon_57695::before {
+                        content: "\E15F";
+                    }
+                    
+                    .dg_icon_57696::before {
+                        content: "\E160";
+                    }
+                    
+                    .dg_icon_57697::before {
+                        content: "\E161";
+                    }
+                    
+                    .dg_icon_57698::before {
+                        content: "\E162";
+                    }
+                    
+                    .dg_icon_57699::before {
+                        content: "\E163";
+                    }
+                    
+                    .dg_icon_57700::before {
+                        content: "\E164";
+                    }
+                    
+                    .dg_icon_57701::before {
+                        content: "\E165";
+                    }
+                    
+                    .dg_icon_57702::before {
+                        content: "\E166";
+                    }
+                    
+                    .dg_icon_57703::before {
+                        content: "\E167";
+                    }
+                    
+                    .dg_icon_57704::before {
+                        content: "\E168";
+                    }
+                    
+                    .dg_icon_57705::before {
+                        content: "\E169";
+                    }
+                    
+                    .dg_icon_57706::before {
+                        content: "\E16A";
+                    }
+                    
+                    .dg_icon_57707::before {
+                        content: "\E16B";
+                    }
+                    
+                    .dg_icon_57708::before {
+                        content: "\E16C";
+                    }
+                    
+                    .dg_icon_57709::before {
+                        content: "\E16D";
+                    }
+                    
+                    .dg_icon_57710::before {
+                        content: "\E16E";
+                    }
+                    
+                    .dg_icon_57711::before {
+                        content: "\E16F";
+                    }
+                    
+                    .dg_icon_57712::before {
+                        content: "\E170";
+                    }
+                    
+                    .dg_icon_57713::before {
+                        content: "\E171";
+                    }
+                    
+                    .dg_icon_57714::before {
+                        content: "\E172";
+                    }
+                    
+                    .dg_icon_57715::before {
+                        content: "\E173";
+                    }
+                    
+                    .dg_icon_57716::before {
+                        content: "\E174";
+                    }
+                    
+                    .dg_icon_57717::before {
+                        content: "\E175";
+                    }
+                    
+                    .dg_icon_57718::before {
+                        content: "\E176";
+                    }
+                    
+                    .dg_icon_57719::before {
+                        content: "\E177";
+                    }
+                    
+                    .dg_icon_57720::before {
+                        content: "\E178";
+                    }
+                    
+                    .dg_icon_57721::before {
+                        content: "\E179";
+                    }
+                    
+                    .dg_icon_57722::before {
+                        content: "\E17A";
+                    }
+                    
+                    .dg_icon_57723::before {
+                        content: "\E17B";
+                    }
+                    
+                    .dg_icon_57724::before {
+                        content: "\E17C";
+                    }
+                    
+                    .dg_icon_57725::before {
+                        content: "\E17D";
+                    }
+                    
+                    .dg_icon_57726::before {
+                        content: "\E17E";
+                    }
+                    
+                    .dg_icon_57727::before {
+                        content: "\E17F";
+                    }
+                    
+                    .dg_icon_57728::before {
+                        content: "\E180";
+                    }
+                    
+                    .dg_icon_57729::before {
+                        content: "\E181";
+                    }
+                    
+                    .dg_icon_57730::before {
+                        content: "\E182";
+                    }
+                    
+                    .dg_icon_57731::before {
+                        content: "\E183";
+                    }
+                    
+                    .dg_icon_57732::before {
+                        content: "\E184";
+                    }
+                    
+                    .dg_icon_57733::before {
+                        content: "\E185";
+                    }
+                    
+                    .dg_icon_57734::before {
+                        content: "\E186";
+                    }
+                    
+                    .dg_icon_57735::before {
+                        content: "\E187";
+                    }
+                    
+                    .dg_icon_57736::before {
+                        content: "\E188";
+                    }
+                    
+                    .dg_icon_57737::before {
+                        content: "\E189";
+                    }
+                    
+                    .dg_icon_57738::before {
+                        content: "\E18A";
+                    }
+                    
+                    .dg_icon_57739::before {
+                        content: "\E18B";
+                    }
+                    
+                    .dg_icon_57740::before {
+                        content: "\E18C";
+                    }
+                    
+                    .dg_icon_57741::before {
+                        content: "\E18D";
+                    }
+                    
+                    .dg_icon_57742::before {
+                        content: "\E18E";
+                    }
+                    
+                    .dg_icon_57743::before {
+                        content: "\E18F";
+                    }
+                    
+                    .dg_icon_57744::before {
+                        content: "\E190";
+                    }
+                    
+                    .dg_icon_57745::before {
+                        content: "\E191";
+                    }
+                    
+                    .dg_icon_57746::before {
+                        content: "\E192";
+                    }
+                    
+                    .dg_icon_57747::before {
+                        content: "\E193";
+                    }
+                    
+                    .dg_icon_57748::before {
+                        content: "\E194";
+                    }
+                    
+                    .dg_icon_57749::before {
+                        content: "\E195";
+                    }
+                    
+                    .dg_icon_57750::before {
+                        content: "\E196";
+                    }
+                    
+                    .dg_icon_57751::before {
+                        content: "\E197";
+                    }
+                    
+                    .dg_icon_57752::before {
+                        content: "\E198";
+                    }
+                    
+                    .dg_icon_57753::before {
+                        content: "\E199";
+                    }
+                    
+                    .dg_icon_57754::before {
+                        content: "\E19A";
+                    }
+                    
+                    .dg_icon_57755::before {
+                        content: "\E19B";
+                    }
+                    
+                    .dg_icon_car::before {
+                        content: "\E19C";
+                    }
+                    
+                    .dg_icon_mar::before {
+                        content: "\E19D";
+                    }
+                    
+                    .dg_icon_57758::before {
+                        content: "\E19E";
+                    }
+                    
+                    .dg_icon_57759::before {
+                        content: "\E19F";
+                    }
+                    
+                    .dg_icon_57760::before {
+                        content: "\E1A0";
+                    }
+                    
